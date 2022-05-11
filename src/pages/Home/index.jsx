@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import DefaultPicture from '../../assets/marvel.png'
 import MovieCard from '../../components/MovieCard'
+
  
 const movies = [
     {
@@ -50,8 +51,7 @@ function Home(){
     return (
         <div>
             <h1>Page d'accueil</h1>
-           <Header />
-
+    
            {movies.map((movie, index) => (
             <MovieCard
                 key={`${movie.title}-${index}`}

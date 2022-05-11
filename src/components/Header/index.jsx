@@ -4,15 +4,14 @@ import React from 'react'
 function Header(){
 
     return (
-        <div>
-            <p>My Header</p>
-            
-            <nav>
-            <Link to="/">Accueil</Link>
-            <Link to="/favorites">Favoris</Link>  
+        <header className="Header">
+            <nav className="Navbar"> 
+            <h2>STUDIO GHIBLI FILMS</h2>
+            <Link to="/">Accueil</Link> 
+            <Link to="/favorites">Favoris</Link> 
             </nav>
             <Outlet />
-        </div>
+        </header>
         
     )
 }
