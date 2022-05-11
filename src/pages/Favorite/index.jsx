@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from '../../components/Header';
 
-function Home(){
+function Favorite(){
     return (
         <div>
-            <h1>Page d'accueil</h1>
-           <Header />
+            <h1>Mes films favoris</h1>
+            <Header />
             
         </div>
         
     )
 }
 
-export default Home
+export default Favorite
