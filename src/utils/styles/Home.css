@@ -4,7 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Flex', sans-serif;
+  box-sizing: border-box;
+  color: #666;
+  background: lightyellow;
 }
+
 /* Header CSS */
 .Header {
   display: flex;
@@ -15,9 +19,9 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #3a2d5c;
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
   color: white;
-  position: fixed;
+  position: relative;
   top: 0;
 }
 
@@ -32,6 +36,94 @@ a {
   text-decoration: none;
   justify-content: flex-end;
   text-align: right;
+}
+
+/* --------------------------------- */
+
+/* Home*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* --------------------------------- */
+
+/* MovieCard CSS */
+
+h1 {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+}
+
+p {
+  padding: 0 1rem 1rem;
+  margin: 0;
+  width: 250px;
+}
+
+span {
+  color: #ffafbd;
+  font-weight: bold;
+}
+
+.scroller {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 254px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+  transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    width: 300px;
+  }
+}
+
+button {
+  color: white;
+  background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+  border: 5px solid transparent;
+  transition: 0.2s ease;
+  border-radius: 50px;
+  margin: 8px auto;
+  display: block;
+  font-weight: bold;
+}
+
+button:hover {
+  color: #ffafbd;
+  background-image: linear-gradient(120deg, white 0%, white 100%);
+  transform: scale(1.1);
+  border: 5px solid #ffafbd;
 }
 
 /* --------------------------------- */
