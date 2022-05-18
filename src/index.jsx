@@ -8,8 +8,10 @@ import {
   Routes,
   Route,
  } from 'react-router-dom'
- import './utils/styles/Home.css'
  import Header from './components/Header'
+ import './utils/styles/home.css'
+ import './utils/styles/header.css'
+ import './utils/styles/moviecard.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
