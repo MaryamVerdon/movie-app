@@ -2,7 +2,7 @@
 
 h1 {
   text-align: center;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 0.5rem;
   margin: 0;
   font-size: 1.5rem;
   color: white;
@@ -31,7 +31,7 @@ span {
 
 img {
   width: 100%;
-  height: 254px;
+  height: 280px;
   margin-bottom: 10px;
 }
 
