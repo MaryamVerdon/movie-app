@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function MovieCard({ title, originalTitle, author, date, description, picture }) {
+function MovieCard({title, originalTitle, author, date, description, picture }) {
     return (
         <div className="card">
             <h1>{title}</h1>
-            <img src={picture} alt="marvel" />
+            <img src={picture} alt="films" /> 
             <p><span>Titre original: </span>{originalTitle}</p>
             <p><span>Auteur : </span>{author}</p>
             <p><span>Date: </span>{date}</p>
