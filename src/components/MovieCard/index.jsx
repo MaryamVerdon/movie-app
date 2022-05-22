@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import '../../utils/styles/moviecard.css'
+
 
 function MovieCard({title, originalTitle, author, date, description, picture }) {
     return (
