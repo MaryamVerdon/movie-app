@@ -7,8 +7,8 @@ body {
   padding: 0;
   font-family: 'Roboto Flex', sans-serif;
   box-sizing: border-box;
-  color: #666;
-  background: #fefee0;
+  color: #301701;
+  background: #c2a693;
 }
 
 .container {
@@ -27,25 +27,39 @@ body {
 /* Barre de recherche CSS*/
 
 .inputContainer {
-  width: 100%;
+  width: 30%;
   position: relative;
   display: flex;
 }
 
 .searchInput {
   width: 100%;
-  border: 3px solid #ffafbd;
+  border: 3px solid lightblue;
   padding: 5px;
   height: 20px;
   border-radius: 5px;
   outline: none;
-  color: #666;
+  color: #301701;
   font-weight: bold;
   margin-bottom: 2rem;
+  font-family: 'Roboto Flex', sans-serif;
 }
 
 .searchInput:focus {
-  color: #666;
+  color: #301701;
+}
+
+::placeholder {
+  color: #301701;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputContainer,
+  .searchInput {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 /* Banner CSS */

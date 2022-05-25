@@ -41,7 +41,7 @@ function Home(){
     return (
         <div className='homePage'>
             <Banner />
-            <div className="InputContainer">
+            <div className="inputContainer">
               <input  type="text" 
               placeholder="Entrez le titre d'un film" 
               onChange={(e) => setSearch(e.target.value)}
