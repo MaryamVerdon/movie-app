@@ -4,10 +4,9 @@ import React from 'react'
 function Header(){
 
     return (
-        <header className="Header">
-            <nav className="Navbar"> 
-            <h2>STUDIO GHIBLI FILMS</h2>
-            <Link to="/">Accueil</Link> 
+        <header className="header">
+            <nav className="navbar"> 
+            <Link className='linkHome' to="/">STUDIO GHIBLI FILMS</Link> 
             <Link to="/favorites">Favoris</Link> 
             </nav>
             <Outlet />
