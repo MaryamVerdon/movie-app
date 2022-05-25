@@ -1,6 +1,7 @@
 import React from 'react'
 import MovieCard from '../../components/MovieCard'
 import Banner from '../../components/Banner'
+import Footer from '../../components/Footer'
 import { useEffect, useState } from 'react'
 import logo from '../../assets/ghibli_logo.png'
 
@@ -71,6 +72,7 @@ function Home(){
                 />
             ))}
             </div>
+            <Footer />
       </div>
     );
   
