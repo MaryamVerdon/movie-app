@@ -50,13 +50,16 @@ function Home(){
             </div>  
             <div className='container'>
               {
-                data.filter(item => {
+                data
+                .sort((a, b) => a.title.localeCompare(b.title, {ignorePunctuation: true}))
+                .filter(item => {
                   if (search === '') {
                     return item;
                   } else if (item.title.toLowerCase().includes(search.toLowerCase())) {
                     return item;
                   }
-                }).map((item) => (
+                })
+                .map((item) => (
                  <MovieCard 
                    key={item.id}
                    title={item.title}
