@@ -1,71 +1,45 @@
-# Getting Started with Create React App
+# Movie-App: Application de liste de films de Studio Ghibli
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application Web qui utilise l' API `Studio Ghibli` pour fournir un index de leurs films et des détails afin que vous puissiez choisir votre favori à regarder. Vous pouvez ajouter en favoris vos films préférés.
 
-## Available Scripts
+Technologies utilisées : `React v18.1.0`, `CSS3`
 
-In the project directory, you can run:
+API : [L'API Studio Ghibli](https://ghibliapi.herokuapp.com/)
 
-### `yarn start`
+![ghibli2](https://user-images.githubusercontent.com/74917307/180614409-cb7639ea-63f5-48a2-aa17-883b08cc26ef.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Fiches Films
+![ghibli1](https://user-images.githubusercontent.com/74917307/180614422-b9f43c6b-a450-41ca-954e-41e0908bbe91.PNG)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Comment participer au projet ?
 
-### `yarn test`
+  1. Cloner le projet 
+      
+         git clone https://github.com/MaryamVerdon/movie-app.git
+        
+    
+  2. En ligne de commande, se placer dans le répertoire `movie-app`
+  
+    
+         cd movie-app
+        
+         yarn install
+        
+         yarn start
+         
+ ## Le projet
+  
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://user-images.githubusercontent.com/74917307/180614118-453ea928-2f03-4324-868e-f811bfbc0059.mp4
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# movie-app" 
+         
+ ## Démo final
+  
+ A venir...
+ 
+  # A faire
+-  terminé la partie favoris/supression d'un films
+    
+-  correction des bugs
